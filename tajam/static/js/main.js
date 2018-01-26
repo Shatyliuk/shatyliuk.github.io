@@ -48,7 +48,7 @@ $(document).ready(function () {
             formEl.classList.add('formWrapper-show');
         }
 
-        if(clientEl.getBoundingClientRect().top <=800 && !formEl.classList.contains('clients-show')){
+        if(clientEl.getBoundingClientRect().top <=800 && !clientEl.classList.contains('clients-show')){
             clientEl.classList.add('clients-show');
         }
     }
