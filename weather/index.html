@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>WeatherJs</title>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  <link href="./css/main.css" rel="stylesheet"></head>
+  <body>
+    <div class="wrapper">
+      <div class="main" id="app">
+        <div class="card indigo darken-1">
+          <div class="card-content white-text cardHeading"><span class="card-title center-align">Waether App</span>
+            <div class="input-field">
+              <input class="validate white-text" id="city" type="text">
+              <label for="city">City</label>
+            </div>
+          </div>
+          <div class="card-tabs">
+            <ul class="tabs center-align tabs-transparent">
+              <li class="tab"><a class="white-text" href="#weather">Weather</a></li>
+              <li class="tab"><a class="white-text" href="#forecast">Forecast</a></li>
+            </ul>
+          </div>
+          <div class="card-content grey lighten-2">
+            <div class="center-align" id="weather"></div>
+            <div class="center-align" id="forecast"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script></body>
+</html>
